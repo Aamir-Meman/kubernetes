@@ -3,7 +3,7 @@ kind: ReplicationController
 metadata:
   name: hello-rc
 spec:
-  replicas: 10
+  replicas: 20
   selector:
     app: hello-world
   template:
